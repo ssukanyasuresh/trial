@@ -3,8 +3,8 @@ package com.twu.refactoring;
 import java.util.List;
 
 public class Order {
-    String name;
-    String address;
+    private String name;
+    private String address;
     List<LineItem> lineItems;
 
     public Order(String name, String address, List<LineItem> lineItems) {
