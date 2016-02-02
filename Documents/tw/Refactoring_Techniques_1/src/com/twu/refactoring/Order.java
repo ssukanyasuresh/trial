@@ -20,4 +20,14 @@ public class Order {
     public String printCustomerDetails() {
         return this.name + "\n" + this.address;
     }
+
+    public String printLineItems() {
+        String items = "";
+
+        for(LineItem item : lineItems){
+            items += item.toString();
+        }
+
+        return items;
+    }
 }
