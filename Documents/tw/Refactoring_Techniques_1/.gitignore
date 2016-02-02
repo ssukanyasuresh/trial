@@ -1,5 +1,6 @@
 *.ipr
 *.iml
 *.iws
-.idea
+.idea/
+out/
 *.class
